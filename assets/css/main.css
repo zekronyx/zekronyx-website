@@ -92,12 +92,14 @@
 
 		html, body {
 			min-width: 320px;
+			scroll-behavior: smooth;
 		}
 
 	}
 
 	html {
 		box-sizing: border-box;
+		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
@@ -277,7 +279,6 @@
         margin-bottom: 0;
     }
 
-	
 /* Row */
 
 	.row {
@@ -3464,6 +3465,7 @@
 
 			html, body {
 				overflow-x: hidden;
+				scroll-behavior: smooth;
 			}
 
 			body, input, select, textarea {
@@ -3690,7 +3692,6 @@
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
